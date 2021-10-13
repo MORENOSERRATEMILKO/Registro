@@ -27,7 +27,7 @@ namespace Registro
         {
             services.AddControllersWithViews();
 
-            services.AddDbContext <UniversidadDbContext> (options =>
+            services.AddDbContext <DataDbContext> (options =>
                 options.UseSqlServer(Configuration.GetConnectionString("MilkoContext")));
 
 

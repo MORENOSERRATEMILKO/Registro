@@ -17,7 +17,7 @@ namespace Registro.Models
         Semestre10 = 9,
         Tesis = 10
     }
-    public class Estudiantes
+    public class Estudiante
     {
         [Key]
         public int EstudianteId { get; set; }
