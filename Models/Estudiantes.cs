@@ -38,7 +38,7 @@ namespace Registro.Models
         [Display(Name = "Selecciona tu semestre")]
         public SemestreType Semestre { get; set; }
 
-
+        //probando
 
 
     }
