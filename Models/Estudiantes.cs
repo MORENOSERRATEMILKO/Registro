@@ -15,7 +15,8 @@ namespace Registro.Models
         Semestre8 = 7,
         Semestre9 = 8,
         Semestre10 = 9,
-        Tesis = 10
+        Tesis = 10,
+        Hace_dos_tesis =11
     }
     public class Estudiante
     {
